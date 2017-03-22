@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+body{
+	background-image: url(../img/pianke-bg.png);
+}
+ul{
+	list-style: none;
+}
+html,body,#container{
+	width: 100%;
+	height: 100%;
+}
+#container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 15vh 15vw;
+}
+ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	padding: 8vh 8vw;
+}
+ul li{
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin: 15px 0;
+	text-align: center;
+}
+ul li input{
+	width: 100%;
+	height: 30%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+ul li div{
+	display: none;
+	font-size: 12px;
+	color: red;
+	text-align: left;
+}
+.login li:nth-child(1){
+	text-align: right;
+}
+ul li a{
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #66bb77;
+	cursor: pointer;
+}
+ul li button{
+	margin: 3vh 6vw;
+	width: 70%;
+	height: 30%;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	background-color: #66bb77;
+	cursor: pointer;
+}
+.code li:nth-child(1) a{
+	margin-top: 10px;
+	color: #aaa;
+	cursor: auto;
+}
+.code li a em{
+	font-style: normal;
+	color: #66bb77;
+	cursor: pointer;
+}
+.code li:nth-child(2) button{
+	color: #66bb77;
+	background-color: #fff;
+	border: 2px solid #66bb77;
+}
+.reg{
+	position: relative;
+}
+#codeNum{
+	position: absolute;
+	top: 0;
+	margin: 0vh 16vw;
+	width: 30%;
+	height: 5%;
+	color: #333;
+	text-align: center;
+	border: 1px solid #aaa;
+	border-radius: 25px;
+	/*display: none;*/
+}
+.reg li:nth-child(3) a{
+	border-bottom: 2px solid #66bb77;
+}
